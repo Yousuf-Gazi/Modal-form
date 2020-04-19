@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/modal.css">
+        <title>Form</title>
+    </head>
+
+    <body>
+        
+        <button id="open" class="open-modal">
+            modal
+        </button>
+
+        <div class="modal-container" id="modal">
+            <div class="modal-content">
+                <!-- modal close -->
+                <div class="close-btn">
+                    <a id="close"><i class="fas fa-times"></i></a>
+                </div>
+                <!-- modal form -->
+                <div class="form-wrapper">
+                    <form class="subscribe" action="#">
+                        <!-- input name -->
+                        <div class="input-icons">
+                            <a class="icon" href="#"><i class="fas fa-user"></i></a>
+    
+                            <input class="input-field" type="text" name="name" placeholder="Full name" required>
+                        </div>
+                        <!-- input email -->
+                        <div class="input-icons">
+                            <a class="icon" href="#"><i class="far fa-envelope"></i></a>
+    
+                            <input class="input-field" type="emial" name="email" placeholder="Email" required>
+                        </div>
+                        <!-- subscribe button -->
+                        <button class="submit-btn" type="submit">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/modal.js"></script>
+    </body>
+
+</html>
